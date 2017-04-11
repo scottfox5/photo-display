@@ -1,0 +1,9 @@
+# Node
+node_modules
+*debug*
+*.log
+
+# MacOS
+.DS_Store
+
+public/assets*

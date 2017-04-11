@@ -1,0 +1,35 @@
+a, a:hover, a:active, a:visited {
+    text-decoration:none !important;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:focus {
+    background-color: orange;
+    color: green;
+}
+
+nav ul li a {
+  color: black;
+}
+/*
+nav ul li a:hover {
+  color: red;
+}*/
+
+nav ul li:hover, nav ul li a:hover {
+  color: red;
+  background-color: pink;
+}
+
+h1 {
+  margin: 100px auto 40px;
+}

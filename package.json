@@ -1,0 +1,28 @@
+{
+  "name": "afphoto",
+  "version": "1.0.0",
+  "description": "Adrienne Fox Photography website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Adrienne",
+    "Fox",
+    "Photography"
+  ],
+  "author": "scottfox5@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-animate": "^1.6.3",
+    "angular-route": "^1.6.3",
+    "angular-sanitize": "^1.6.3",
+    "angular-touch": "^1.6.4",
+    "angular-ui-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.2",
+    "normalize.css": "^5.0.0"
+  }
+}

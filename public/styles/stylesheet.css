@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Rubik Mono One', sans-serif;*/
+  margin: 100px 0 100px 0;
+}
+
+.horizontal-collapse {
+  height: 70px;
+}
+.navbar-collapse.in {
+  overflow-y: hidden;
+}
+
+.navbar-toggle {
+  /*float: left;*/
+}

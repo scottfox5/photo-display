@@ -1,0 +1,46 @@
+.carousel {
+  /*margin: 40px 0 40px 0 ! important;*/
+}
+.carousel-indicators {
+  position: inherit;
+  border: 1px solid black;
+  /*margin: 0 auto 0;*/
+}
+.carousel-caption {
+  color: black;
+  border: 1px solid black;
+  position: inherit;
+}
+.carousel-control {
+  background-color: transparent !important;
+  background-image: none !important;
+  /*position: relative !important;*/
+}
+.carousel-control:hover {
+  background-color: transparent !important;
+  /*position: fixed !important;*/
+}
+
+.modal-dialog {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.uib-carousel {
+  /*width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  top: 0 !important;
+  left: 0 !important;*/
+}
+
+/*.full-screen {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+}*/
