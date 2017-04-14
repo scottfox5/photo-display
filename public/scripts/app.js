@@ -12,10 +12,10 @@ console.log("afPhotoApp connected...")
       // controller: 'ProjController',
       // controllerAs: 'proj',
       })
-      .when('/whiteshow', {
-      templateUrl: '/public/views/whiteshow.html',
-      controller: 'WhiteShowController',
-      controllerAs: 'white',
+      .when('/projectScroll', {
+      templateUrl: '/public/views/projectScroll.html',
+      controller: 'ProjectScrollController',
+      controllerAs: 'scroll',
       })
       .otherwise({
         redirectTo: '/home',
