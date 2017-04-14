@@ -1,0 +1,12 @@
+<button class="btn btn-primary" ng-click="closeModal()">X</button>
+<div>
+  <div  class='modal-fullscreen' uib-carousel active="active" interval="myInterval"  no-wrap="noWrapSlides">
+    <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+      <img class="img-responsive full-screen" ng-src="{{slide.image}}" style="">
+      <div class="carousel-caption">
+        <h4>Slide {{slide.id}}</h4>
+        <p>{{slide.text}}</p>
+      </div>
+    </div>
+  </div>
+</div>
