@@ -1,6 +1,6 @@
 # Photo Display
 
-This is a website to display images
+Web-based application to upload and display images.
 
 ## Author: Scott Fox
 
