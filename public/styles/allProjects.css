@@ -1,0 +1,143 @@
+.project {
+  width: 100%;
+  height: 150px;
+  padding: 50px 10px 0 10px;
+  margin: 40px auto 0;
+  font-size: 22px;
+}
+
+#familyPortraits {
+  color: #FFDA1E;
+  background-color: #3C36B2;
+  transition: background-image ease 5s;
+}
+#familyPortraits:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/Family Portraits/MSAB 20x24-DEBOER_GoldenBlanket.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#familyPortraits:hover > .projectTitle {
+  display: none;
+}
+
+#topography {
+  color: #FF7F1B;
+  background-color: #36A2B2;
+}
+#topography:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/Topography/IMG_1857.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#topography:hover > .projectTitle {
+  display: none;
+}
+
+#femalePro {
+  color: #FF221B;
+  background-color: #5AB278;
+}
+#femalePro:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/Female Protagonist/Kaitlin in Field.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#femalePro:hover > .projectTitle {
+  display: none;
+}
+
+#sexWith {
+  color: #FF1BBB;
+  background-color: #63B255;
+}
+#sexWith:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/Maternal Instinct /Julia.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#sexWith:hover > .projectTitle {
+  display: none;
+}
+
+#whiteShow {
+  color: #DD48FF;
+  background-color: #99B275;
+}
+#whiteShow:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/The White Show/Pissing in Field, Winter '06 45-4.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#whiteShow:hover > .projectTitle {
+  display: none;
+}
+
+#maternal {
+  color: #B29F5B;
+  background-color: #B1B9FF;
+}
+#maternal:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/Maternal Instinct /Becka and Harry.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#maternal:hover > .projectTitle {
+  display: none;
+}
+
+#instant {
+  color: #B25C5B;
+  background-color: #42B265;
+}
+#instant:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/Zoological /The Goat.JPG");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#instant:hover > .projectTitle {
+  display: none;
+}
+
+#zoo {
+  color: #82FF6B;
+  background-color: #FF6DD6;
+}
+#zoo:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/Zoological /Loon at Night.JPG");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#zoo:hover > .projectTitle {
+  display: none;
+}
+
+#scenes {
+  color: #414DFF;
+  background-color: #FFD840;
+}
+#scenes:hover {
+  background-image: url("/public/assets/photos/adriennefox.photography/Terrains/IMG_2428.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#scenes:hover > .projectTitle {
+  display: none;
+}
