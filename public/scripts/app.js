@@ -8,7 +8,7 @@ console.log("afPhotoApp connected...")
       // controllerAs: 'home',
       })
       .when('/projects', {
-      templateUrl: '/public/views/projects.html',
+      templateUrl: '/public/views/allProjects.html',
       // controller: 'ProjController',
       // controllerAs: 'proj',
       })
