@@ -1,46 +1,33 @@
-.carousel {
-  /*margin: 40px 0 40px 0 ! important;*/
-}
 .carousel-indicators {
   position: inherit;
   border: 1px solid black;
+  background-color: yellow;
   /*margin: 0 auto 0;*/
 }
 .carousel-caption {
   color: black;
+  position: inherit;
   border: 1px solid black;
   position: inherit;
 }
+.carousel-inner {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+.modal-content {
+  background-color: #000;
+}
 .carousel-control {
-  background-color: transparent !important;
-  background-image: none !important;
-  /*position: relative !important;*/
+  width: 10%;
 }
 .carousel-control:hover {
-  background-color: transparent !important;
-  /*position: fixed !important;*/
+  background-color: gray;
+  opacity: 0.5;
 }
-
-.modal-dialog {
-  width: 80% !important;
-  height: 80% !important;
-  margin: 0 !important;
-  top: 0 !important;
-  left: 0 !important;
-}
-
-.uib-carousel {
-  /*width: 100% !important;
-  height: 100% !important;
-  margin: 0 !important;
-  top: 0 !important;
-  left: 0 !important;*/
-}
-
-/*.full-screen {
-    width: 100% !important;
-    height: 100% !important;
-    margin: 0 !important;
-    top: 0 !important;
-    left: 0 !important;
-}*/
