@@ -1,4 +1,4 @@
-var afPhoto = angular.module('afPhotoApp', ['ngRoute', 'ngAnimate', 'ngSanitize', 'ngTouch', 'ui.bootstrap']);
+var afPhoto = angular.module('afPhotoApp', ['ngRoute', 'ngAnimate', 'ngSanitize', 'ngTouch', 'ui.bootstrap', 'ngFileUpload']);
 console.log("afPhotoApp connected...")
   afPhoto.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
