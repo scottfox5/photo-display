@@ -2,12 +2,16 @@ var afPhoto = angular.module('afPhotoApp', ['ngRoute', 'ngAnimate', 'ngSanitize'
 console.log("afPhotoApp connected...")
   afPhoto.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
-      .when('/home', {
+      .when('/', {
       templateUrl: '/public/views/home.html',
-      // controller: 'HomeController',
-      // controllerAs: 'home',
       })
-      .when('/projects', {
+      .when('/about', {
+      templateUrl: '/public/views/about.html',
+      })
+      .when('/contact', {
+      templateUrl: '/public/views/contact.html',
+      })
+      .when('/allProjects', {
       templateUrl: '/public/views/allProjects.html',
       // controller: 'ProjController',
       // controllerAs: 'proj',
@@ -18,7 +22,7 @@ console.log("afPhotoApp connected...")
       controllerAs: 'scroll',
       })
       .otherwise({
-        redirectTo: '/home',
+        redirectTo: '/',
       });
   },
 
