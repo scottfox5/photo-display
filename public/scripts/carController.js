@@ -12,7 +12,7 @@ afPhoto.controller('CarController', function ($scope, $uibModal, $uibModalInstan
   $scope.myInterval = 5000;
   $scope.noWrapSlides = false;
   $scope.active = 0;
-  // set current index to id of image clicked 
+  // TODO set current index to id of image clicked 
   var currIndex = 0;
   var modalInstance = undefined;
   var slides = $scope.slides = [
